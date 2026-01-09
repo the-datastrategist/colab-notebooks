@@ -2,8 +2,6 @@
 
 This repo contains a **memory-based collaborative filtering** prototype that builds a user–item interaction matrix from MovieLens ratings and computes **item–item similarity** for fast, explainable recommendations.
 
-> Reviewer note: The goal here is to show *systems + reasoning* (data model, scalability constraints, and productionization path), not a “toy recommender”.
-
 ---
 
 ## Project Overview
