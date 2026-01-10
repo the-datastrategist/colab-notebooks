@@ -3,9 +3,6 @@
 This repository implements a **production-minded baseline** for clustering e-commerce
 sessions into interpretable behavioral segments using visit-level features and K-Means.
 
-The emphasis is on **correct data modeling, defensible technical decisions,
-and a clear path to production**, not algorithmic novelty.
-
 ---
 
 ## Project Overview
