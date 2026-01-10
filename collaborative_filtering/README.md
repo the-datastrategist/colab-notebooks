@@ -1,8 +1,6 @@
 # Memory-Based Collaborative Filtering (MovieLens) — Production-Minded Notebook
 
-This repo contains a **memory-based collaborative filtering** prototype that builds a user–item interaction matrix from MovieLens ratings and computes **item–item similarity** for fast, explainable recommendations.
-
----
+<br>
 
 ## Project Overview
 
@@ -20,7 +18,7 @@ This repo contains a **memory-based collaborative filtering** prototype that bui
   - Useful when labeled outcomes are scarce (no explicit conversion labels)
   - A practical “first model” before moving to embeddings / deep models
 
----
+<br>
 
 ## System Architecture
 
@@ -54,7 +52,7 @@ This repo contains a **memory-based collaborative filtering** prototype that bui
 - **scikit-learn NearestNeighbors (cosine)**: practical Top-K similarity without building a dense N×N matrix
 - **(Optional) google-cloud-storage**: artifact upload to GCS
 
----
+<br>
 
 ## Data & Feature Engineering
 
@@ -80,7 +78,7 @@ This repo contains a **memory-based collaborative filtering** prototype that bui
 - Cold-start is not solved (new users/items need fallback strategies)
 - MovieLens has clean IDs; production systems need robust ID mapping + de-dupe
 
----
+<br>
 
 ## Modeling / Analytics
 
@@ -103,7 +101,7 @@ This repo contains a **memory-based collaborative filtering** prototype that bui
   - re-ranking with diversity / novelty constraints
 - Sparse users (few interactions) → fallback to popularity / content-based
 
----
+<br>
 
 ## Orchestration & Infrastructure (Production Path)
 
@@ -123,7 +121,7 @@ What a real deployment would add:
   - Data drift: interaction volume, item/user churn, rating distribution shifts
   - Model health: coverage, latency, hitrate proxy, diversity metrics
 
----
+<br>
 
 ## How to Run Locally
 
@@ -151,7 +149,7 @@ Set the path to your ratings file:
 Open and run:
 - `tds_memory_collaborative_filtering_01_load_matrix.ipynb`
 
----
+<br>
 
 ## Design Tradeoffs & Future Improvements
 
@@ -172,8 +170,3 @@ Open and run:
 - Scale path:
   - compute neighbors with Spark ALS or approximate neighbors
   - use embeddings (two-tower / item2vec) and ANN retrieval for large catalogs
-
----
-
-## Repo Contents
-- `tds_memory_collaborative_filtering_01_load_matrix.ipynb` — end-to-end CF baseline + Top-K neighbor generation
