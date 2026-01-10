@@ -7,7 +7,7 @@ toy notebooks or algorithm demos.
 Each project demonstrates how exploratory analysis evolves into **batchable, monitorable, and
 extensible systems** suitable for real organizations.
 
----
+<br>
 
 ## Project 1: Memory-Based Collaborative Filtering
 **Notebook:** `tds_memory_collaborative_filtering_01_load_matrix.ipynb`
@@ -54,7 +54,7 @@ This is a common baseline for marketplaces, media platforms, gaming catalogs, an
   - downstream ranking or re-ranking layer
 - Natural extension to embeddings or hybrid systems
 
----
+<br>
 
 ## Project 2: E-commerce Session Clustering
 **Notebook:** `tds_session_clustering.ipynb`
@@ -115,7 +115,7 @@ This is a **baseline by design**: fast, interpretable, and operationally simple.
   - conversion rate by cluster
   - feature distribution shifts
 
----
+<br>
 
 ## Shared Design Principles
 
@@ -138,7 +138,7 @@ Across both projects:
 These projects are meant to demonstrate how data science work fits into a
 **real ML/analytics lifecycle**, not just how to train a model.
 
----
+<br>
 
 ## Notes on Data
 - All datasets are public and anonymized.
