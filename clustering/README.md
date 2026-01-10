@@ -3,7 +3,6 @@
 This repository implements a **production-minded baseline** for clustering e-commerce
 sessions into interpretable behavioral segments using visit-level features and K-Means.
 
----
 
 ## Project Overview
 
@@ -24,7 +23,6 @@ This project produces:
 - Product Analytics / Data Science
 - UX & Merchandising teams
 
----
 
 ## System Architecture
 
@@ -50,7 +48,6 @@ This project produces:
    - `k_diagnostics.parquet`
    - `model_report.json`
 
----
 
 ## Modeling / Analytics
 
@@ -71,7 +68,6 @@ Operational checks:
 - Centroid sanity checks
 - Temporal stability of cluster mix
 
----
 
 ## Orchestration & Infrastructure
 
@@ -88,7 +84,6 @@ Operational checks:
   - Cluster mix drift
   - Conversion rate by cluster
 
----
 
 ## How to Run Locally
 
@@ -96,3 +91,4 @@ Operational checks:
 make install
 make test
 make smoke
+```
